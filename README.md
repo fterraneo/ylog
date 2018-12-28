@@ -1,0 +1,1 @@
+# YLog Log Manager Class
