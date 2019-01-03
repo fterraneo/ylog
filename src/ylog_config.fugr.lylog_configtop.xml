@@ -5,6 +5,7 @@
    <PROGDIR>
     <NAME>LYLOG_CONFIGTOP</NAME>
     <STATE>A</STATE>
+    <VARCL>X</VARCL>
     <DBAPL>S</DBAPL>
     <DBNA>D$</DBNA>
     <SUBC>I</SUBC>
