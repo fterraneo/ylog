@@ -113,8 +113,9 @@ CLASS ycl_log IMPLEMENTATION.
       ls_log-dump_id = ycl_log=>dump_object( object ).
     ENDIF.
 
-    INSERT ylog_log FROM ls_log.
-    COMMIT WORK.
+  CALL FUNCTION 'Y_LOG_COMMIT' DESTINATION 'NONE'
+    EXPORTING
+      is_log = ls_log.
 
   ENDMETHOD.
 
